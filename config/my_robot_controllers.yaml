@@ -1,0 +1,18 @@
+joint_state_controller:
+  type: joint_state_controller/JointStateController
+  publish_rate: 50
+
+joint_A_position_controller:
+  type: position_controllers/JointPositionController
+  joint: A
+
+joint_B_position_controller:
+  type: position_controllers/JointPositionController
+  joint: B
+
+trajectory_controller:
+  type: position_controllers/JointTrajectoryController
+  default: true
+  joints:
+    - A
+    - B

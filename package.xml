@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package>
+  <name>ros_control_minimal_example</name>
+  <version>0.0.1</version>
+  <description>The ros_control_minimal_example package</description>
+  <maintainer email="olesinski.jakub@gmail.com">Jakub Olesinski</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>controller_manager</build_depend>
+  <build_depend>hardware_interface</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>trajectory_msgs</build_depend>
+  <run_depend>urdf</run_depend>
+  <run_depend>controller_manager</run_depend>
+  <run_depend>hardware_interface</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>trajectory_msgs</run_depend>
+
+  <export>
+  </export>
+</package>
